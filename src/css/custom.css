@@ -110,6 +110,7 @@ div[class*="announcementBar"] button:focus-visible { outline: 2px solid var(--co
 
 /* ---- Docs pages ---- */
 .theme-doc-markdown { font-size: var(--text-md); line-height: 1.7; }
+.theme-doc-markdown p, .theme-doc-markdown li, .theme-doc-markdown h1, .theme-doc-markdown h2, .theme-doc-markdown h3, .theme-doc-markdown .lead { max-width: none; text-wrap: initial; }
 .theme-doc-markdown h1 { font-size: var(--text-2xl); line-height: 1.15; margin-bottom: var(--space-lg); max-width: 30ch; }
 .theme-doc-markdown h1::before { content: "# "; color: var(--color-muted); font-weight: 400; }
 .theme-doc-markdown h2 { font-size: var(--text-xl); line-height: 1.2; margin-top: var(--space-2xl); margin-bottom: var(--space-md); padding-top: var(--space-lg); border-top: var(--rule-hair) solid var(--color-rule); max-width: 44ch; }
@@ -156,7 +157,7 @@ div[class*="buttonGroup"] button { background: var(--color-paper-3); border: var
 .breadcrumbs__link { font-size: var(--text-sm); color: var(--color-ink-2); }
 .breadcrumbs__item--active .breadcrumbs__link { color: var(--color-accent); background: var(--color-accent-wash); border-radius: 0; }
 .theme-doc-footer, .theme-last-updated { color: var(--color-muted); }
-.theme-doc-markdown h1 + p { font-size: var(--text-lead); line-height: 1.55; color: var(--color-ink-2); max-width: 60ch; }
+.theme-doc-markdown h1 + p { font-size: var(--text-lead); line-height: 1.55; color: var(--color-ink-2); }
 .markdown > h1:first-child { margin-top: 0; }
 button[class*="collapseSidebarButton"], div[class*="expandButton"] { background: var(--color-paper-2); border-color: var(--color-rule); }
 
