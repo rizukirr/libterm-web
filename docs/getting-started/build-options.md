@@ -40,7 +40,7 @@ Pin a single backend with `scalar`, `avx2`, `avx512`, `neon`, `sve` or `rvv`. Th
 
 ## Windows
 
-Windows builds are validated with MinGW. From a POSIX host:
+The Windows backend is validated with MinGW. To cross-compile from a POSIX host:
 
 ```sh
 cmake -B build-mingw -DCMAKE_TOOLCHAIN_FILE=cmake/toolchains/mingw-w64.cmake \

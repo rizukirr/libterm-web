@@ -21,6 +21,14 @@ npm run build      # static site in build/
 node scripts/check-api-coverage.mjs ../libterm/include/libterm/libterm.h
 ```
 
+## Writing style
+
+The pages follow a plain style: no em or en dashes, no semicolons in prose, straight quotes, no emoji, sentence-case headings, no lists of bold labels, and no paragraphs about how things used to work. `scripts/check-plain.mjs` checks the mechanical part:
+
+```sh
+node scripts/check-plain.mjs
+```
+
 ## Deploy
 
 Pushes to `main` build and deploy through `.github/workflows/deploy.yml`. In the repository settings, set Pages to deploy from GitHub Actions.
