@@ -51,7 +51,7 @@ function CopyCommand({cmd}) {
   };
   return (
     <div className="lp-cmd">
-      <code>{cmd}</code>
+      <code><span className="lp-typed">{cmd}</span></code>
       <span role="status" aria-live="polite">{state}</span>
       <button type="button" className="key key--small" onClick={copy}>Copy</button>
     </div>
@@ -130,7 +130,7 @@ export default function Home() {
         <section className="lp-hero" aria-labelledby="hero-title">
           <div className="container lp-split">
             <div>
-              <h1 id="hero-title">Cross-platform, native, modern terminal UI library</h1>
+              <h1 id="hero-title"><span className="nowrap">Cross-platform,</span> native, modern terminal UI library</h1>
               <p className="lead">termbox2-compatible API on POSIX and native Windows (Win32 Console API).</p>
               <div className="lp-actions">
                 <Link className="key key--primary" to="/docs/tutorials">Start the tutorial</Link>

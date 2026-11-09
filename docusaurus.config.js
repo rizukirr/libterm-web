@@ -40,7 +40,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap',
       },
     },
   ],
@@ -67,7 +67,7 @@ const config = {
       metadata: [
         {name: 'description', content: 'libterm: a cross-platform, native, modern terminal UI library with a termbox2-compatible API on POSIX and native Windows (Win32 Console API).'},
       ],
-      colorMode: {defaultMode: 'light', disableSwitch: true, respectPrefersColorScheme: false},
+      colorMode: {defaultMode: 'dark', disableSwitch: true, respectPrefersColorScheme: false},
       announcementBar: {
         id: 'v0-1-3',
         content: 'v0.1.3 is out: F1 to F4 with modifiers and split UTF-8 keystrokes now decode on POSIX. <a href="https://github.com/rizukirr/libterm/releases/tag/v0.1.3">Release notes</a>',
@@ -87,7 +87,7 @@ const config = {
         style: 'light',
         links: [],
         copyright:
-          'libterm is MIT licensed: <a href="https://github.com/rizukirr/libterm">github.com/rizukirr/libterm</a>. The terminal pictures are real runs of <code>examples/</code>, rendered cell for cell. <a href="https://github.com/rizukirr/libterm-web">Site source</a>.',
+          'libterm | MIT | <a href="https://github.com/rizukirr/libterm">github.com/rizukirr/libterm</a> | pictures are real runs of <code>examples/</code>, cell for cell | <a href="https://github.com/rizukirr/libterm-web">site source</a>',
       },
       prism: {
         theme: graphitePrism,
