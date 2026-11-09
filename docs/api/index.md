@@ -8,6 +8,8 @@ description: Every public function, macro, constant and type in libterm/libterm.
 
 The single public header is `libterm/libterm.h`. This reference covers every symbol it declares. Functions return `int` unless noted: `LT_OK` on success and a negative `LT_ERR_*` code on failure.
 
+Every function entry has the same parts: the signature, what it does, a parameters table, the return values, a short example, and links to the guide that covers it.
+
 ## Functions
 
 | Area | Functions |
