@@ -18,7 +18,7 @@ const graphitePrism = {
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'libterm',
-  tagline: 'A C11 terminal UI library with a termbox2-compatible API for POSIX and Win32',
+  tagline: 'Cross-platform, native, modern terminal UI library',
   favicon: 'img/favicon.svg',
   future: {v4: true},
 
@@ -65,7 +65,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'description', content: 'Documentation for libterm: tutorials, guides and the complete API reference for the C11 terminal UI library.'},
+        {name: 'description', content: 'libterm: a cross-platform, native, modern terminal UI library with a termbox2-compatible API on POSIX and native Windows (Win32 Console API).'},
       ],
       colorMode: {defaultMode: 'light', disableSwitch: true, respectPrefersColorScheme: false},
       announcementBar: {

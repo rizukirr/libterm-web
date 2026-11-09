@@ -125,13 +125,13 @@ export default function Home() {
     document.documentElement.classList.add('js');
   }, []);
   return (
-    <Layout title="libterm" description="A C11 terminal UI library with a termbox2-compatible API for POSIX and Win32. Tutorials, guides and the complete API reference.">
+    <Layout title="libterm" description="Cross-platform, native, modern terminal UI library. termbox2-compatible API on POSIX and native Windows (Win32 Console API).">
       <main className="lp">
         <section className="lp-hero" aria-labelledby="hero-title">
           <div className="container lp-split">
             <div>
-              <h1 id="hero-title">termbox2&rsquo;s API, native on both platforms</h1>
-              <p className="lead">Draw into a cell buffer, present the diff, read modern input events on POSIX and Win32.</p>
+              <h1 id="hero-title">Cross-platform, native, modern terminal UI library</h1>
+              <p className="lead">termbox2-compatible API on POSIX and native Windows (Win32 Console API).</p>
               <div className="lp-actions">
                 <Link className="key key--primary" to="/docs/tutorials">Start the tutorial</Link>
                 <Link className="key" to="/docs/guides/porting-from-termbox2">Port from termbox2</Link>

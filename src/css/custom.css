@@ -144,7 +144,7 @@ div[class*="codeBlockTitle"] { background: var(--color-graphite-2); color: var(-
 .lp-split--lead { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); }
 .lp-split--top { align-items: start; }
 .lp-split > * { min-width: 0; }
-.lp-hero h1 { font-size: var(--text-display-s); max-width: 16ch; }
+.lp-hero h1 { font-size: var(--text-display-s); max-width: 18ch; }
 .lp-hero .lead { margin-top: var(--space-lg); }
 .lp-actions { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-xl); }
 .lp-hero .lp-cmd { margin-top: var(--space-lg); }
