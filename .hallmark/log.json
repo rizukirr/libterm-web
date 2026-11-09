@@ -1,0 +1,32 @@
+[
+ {
+  "prompt": "documentation site and landing page for libterm, a C11 terminal UI library with a termbox2-compatible API",
+  "shape": "Split Studio",
+  "theme": "cobalt",
+  "genre": "modern-minimal",
+  "job": "sign up",
+  "axes": "light/grotesk-sans/cool",
+  "hero": "Stage",
+  "nav": "banner over a retracting bar",
+  "footer": "colophon block",
+  "imagery": "the product, five pty captures of the examples in data-slots, no photographs",
+  "photos": [],
+  "entry": "One header, four calls: a split with the 13-line program on graphite",
+  "fingerprint": "split-studio/stage/split-first/pinned-run/rows-questions/graphite-band",
+  "sections": [
+   "Hero (split, kbd capture)",
+   "Split (hello.c)",
+   "Pinned run (print, editor, truecolor)",
+   "Split (platform table)",
+   "Rows (questions)",
+   "Band (clone, build, run)",
+   "Colophon"
+  ],
+  "signature": "examples/kbd captured 90 ms after Ctrl+F1 with the caps lit and the inspector reading F1 with LT_MOD_CTRL",
+  "waived": [],
+  "draw": "accd9b",
+  "deal": "documentation-libterm-small-c11-2b49·da7d7f1d·2026-11-09·r0",
+  "date": "2026-11-09",
+  "mode": "build"
+ }
+]
